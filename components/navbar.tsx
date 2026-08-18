@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Users, Bookmark, Sparkles } from "lucide-react"
+import { Users, Bookmark } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { useFavorites } from "@/hooks/use-favorites"
 

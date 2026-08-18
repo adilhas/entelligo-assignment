@@ -1,5 +1,5 @@
 import { Suspense } from "react"
-import { Sparkles, Users } from "lucide-react"
+import { Users } from "lucide-react"
 import { fetchUsers } from "@/lib/api"
 import { UserDirectoryClient } from "@/components/users/user-directory-client"
 import Loading from "./loading"
@@ -13,7 +13,7 @@ export default async function HomePage() {
   return (
     <div className="relative min-h-[calc(100vh-4rem)] pb-16">
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-tr from-primary/10 via-purple-500/10 to-blue-500/5 blur-[120px] rounded-full" />
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-200 h-100 bg-linear-to-tr from-primary/10 via-purple-500/10 to-blue-500/5 blur-[120px] rounded-full" />
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12">
