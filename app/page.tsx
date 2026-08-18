@@ -18,10 +18,10 @@ export default async function HomePage() {
 
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12">
         <div className="mb-8 space-y-3">
-          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-medium text-primary">
+          {/* <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-medium text-primary">
             <Sparkles className="size-3.5" />
             <span>Real-time Team Directory</span>
-          </div>
+          </div> */}
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
