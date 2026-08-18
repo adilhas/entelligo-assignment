@@ -36,8 +36,8 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="border-t border-border/40 bg-muted/20 py-8 text-center text-xs text-muted-foreground transition-colors">
             <div className="container mx-auto max-w-7xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <p>© {new Date().getFullYear()} NexusUsers Directory. Built for excellence.</p>
-              <div className="flex items-center gap-4 text-xs">
+              <p>© {new Date().getFullYear()} NexusUsers Directory</p>
+              {/* <div className="flex items-center gap-4 text-xs">
                 <span>Next.js 16</span>
                 <span>•</span>
                 <span>TypeScript</span>
@@ -45,7 +45,7 @@ export default function RootLayout({
                 <span>Tailwind CSS</span>
                 <span>•</span>
                 <span>shadcn/ui</span>
-              </div>
+              </div> */}
             </div>
           </footer>
         </ThemeProvider>
